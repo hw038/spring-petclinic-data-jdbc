@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PetClinicApplication",
+            "request": "launch",
+            "mainClass": "org.springframework.samples.petclinic.PetClinicApplication",
+            "projectName": "spring-petclinic-data-jdbc"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch)-PetClinicApplication<spring-petclinic>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
